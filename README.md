@@ -1,1 +1,1 @@
-https://SergeyBrutskey.github.io/rsschool-cv/cv
+rsschool-cv: https://SergeyBrutskey.github.io/rsschool-cv/cv
