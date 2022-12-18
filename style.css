@@ -41,7 +41,7 @@ header {
 
 .section-profile {
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     display: flex;
     justify-content: space-around;
     padding: 50px 30px 15px;
@@ -86,7 +86,7 @@ header {
 }
 @media (max-width: 768px) {
     .section {
-        width: 100%;
+        width: 1440px;
     }
 }
 body {
