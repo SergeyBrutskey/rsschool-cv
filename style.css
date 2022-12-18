@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Lato;
+    src: url("assets/fonts/Lato/Lato-Regular.ttf");
+}
+*{
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    display: block;
+    }
+body {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Lato';
+    font-weight: 400;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+.contaner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    width: 1440px;
+    border: 1px solid gray;
+    font-size: 400;
+    font-style: inherit;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #829985;
+    text-align: center;
+}
+/*
+.section-profile {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 30px 15px;
+}*/
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-link {
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+}
+.link {
+    text-decoration: none;
+    color: #829985;
+    transition: 0.5s;
+}
+.link:hover {
+    color: orange;
+}
+/* :hover {
+
+}*/
+.nav-link {
+    transition: .3s;
+}
+.section-item a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.section-item a:hover {
+    color: #4d2323;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    width: 50%;
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+body {
+    font-family: 'Lato' sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+}
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+}
+.RSS {
+    width: 225px;
+    height: 155px;
+}
+.section-profile-logo {
+    width: 240px;
+    height: 380px;
+}
+.GIT {
+    width: 225px;
+    height: 155x;
+}
+.footer {
+    width: 1440px;
+    background-color: #829985;
+    padding: 20px;
+}
